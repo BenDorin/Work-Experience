@@ -5,7 +5,7 @@ require 'sinatra'
 
 #runs sinatra web server
 
-get '/' do
+get '/page1' do
 	@foo_title = "My Fable Generator"
 	erb :page1
 end
