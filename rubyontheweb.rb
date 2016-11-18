@@ -10,3 +10,4 @@ class MyApp < Sinatra::Base
   end
 end
 
+run MyApp.new
